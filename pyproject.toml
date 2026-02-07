@@ -1,0 +1,17 @@
+[project]
+name = "aichatbot"
+version = "0.1.0"
+description = "A Streamlit chatbot powered by LangChain with support for multiple AI providers"
+readme = "readme.md"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit",
+    "python-dotenv",
+    "langchain-core",
+    "langchain-community",
+    "langchain-groq",
+    "langchain-google-genai",
+]
+
+[project.scripts]
+start = "streamlit run chatbot_groq_gemni_langchain_streamlit.py"
