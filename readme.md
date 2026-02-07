@@ -15,3 +15,7 @@ pip3 install -r requirements.txt
 streamlit run chatbot_groq_gemni_langchain_streamlit.py
 ```
 
+Cloud App
+```
+https://chatbot-testing-assessment.streamlit.app/
+```
